@@ -1,0 +1,36 @@
+{
+  "spells": [
+    {"name" : "Fire", "cost" : 10, "damage" : 50, "type" : "black"},
+    {"name" : "Thunder", "cost" : 15, "damage" :80, "type" :"black"},
+    {"name" :"Blizzard", "cost" :20, "damage" :100, "type" :"black"},
+    {"name" :"Meteor", "cost" :15, "damage" :90, "type" :"black"},
+    {"name" :"Earth Quake", "cost" :20, "damage" :120,"type" : "black"},
+    {"name" :"Wind", "cost" :5, "damage" :70,"type" : "black"},
+    {"name" :"Cosmic Rays", "cost" :40, "damage" :200,"type" : "black"},
+    {"name" :"Cure", "cost" :-12, "damage" :100, "type" :"white"},
+    {"name" :"Cura", "cost" :-20, "damage" :150,"type" : "white"}
+  ],
+
+  "items": [
+    {"name":  "Potion", "type": "potion", "desc" :  "Heals 50 HP", "prop":  50},
+    {"name":  "Hi-Potion", "type": "potion", "desc" :  "Heals 100 HP", "prop":  100},
+    {"name":  "Super-Potion", "type": "potion", "desc" :  "Heals 300 HP", "prop":  300},
+    {"name":  "Elixer", "type": "elixer", "desc" :  "Fully restores HP/MP of 1 character", "prop":  99999},
+    {"name":  "Mega-Elixer", "type": "elixer", "desc" :  "Fully restores HP/MP of all characters of the party", "prop":  99999},
+    {"name":  "Granade", "type": "attack", "desc" :  "Deals 200 damage", "prop":  200},
+    {"name":  "Mega-Granade", "type": "attack", "desc" :  "Deals 500 damage", "prop":  500}
+  ],
+
+  "players": [
+    {"name": "player-1", "hp": 460, "mp" : 65, "attack":  60, "defence": 20,
+    "magic": ["Fire", "Thunder", "Blizzard", "Wind", "Cure", "Cura"],
+    "items": ["Potion", "Potion", "Potion", "Potion", "Hi-Potion", "Super-Potion", "Elixer", "Granade", "Mega-Granade"]}
+  ],
+
+  "enemies": [
+    {"name" :  "enemy-1", "hp":  1200, "mp" :  75, "attack" :  70, "defence": 35,
+    "magic" : ["Fire", "Thunder", "Meteor", "Earth Quake", "Cosmic Rays"],
+    "items": []}
+  ]
+
+}
